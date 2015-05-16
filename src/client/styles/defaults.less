@@ -1,0 +1,35 @@
+html {
+	// .improve-text;
+	// .stop-flickering;
+}
+
+body {
+	// .hardware-acceleration;
+}
+
+div#main {
+	.fade-in;
+	// .hardware-acceleration; All Animating div's and parent or just the body and all works?
+	width: 100%;
+	min-width: @page-width;
+
+	div#pages {
+		.rel;
+		margin: 0 auto;
+		width: @page-width;
+
+		> div {
+			.abs;
+			.box;
+			.fade-in;
+			top:0;
+			left:0;
+			width: @page-width;
+			height: 100%;
+		}
+	}
+
+	h1 {
+		font-size: 40px;
+	}
+}

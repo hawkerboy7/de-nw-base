@@ -1,0 +1,31 @@
+{
+  "name": "de-nw-base",
+  "version": "0.0.1",
+  "description": "Base project for NodeWebkit to start other nw projects from",
+  "main": "nw.html",
+  "dependencies": {
+    "backbone": "^1.2.0",
+    "de-builder": "^0.4.5",
+    "de-logger": "^0.2.8",
+    "jade": "^1.9.2",
+    "jquery": "^2.1.4",
+    "mongodb": "^2.0.31",
+    "nw": "^0.12.1",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "de-builder": "^0.4.5"
+  },
+  "scripts": {
+    "start": "nw"
+  },
+  "window": {
+    "icon": "build/client/images/favicon.ico",
+    "frame": true,
+    "width": 800,
+    "height": 500,
+    "position": "mouse",
+    "toolbar": true,
+    "fullscreen": false
+  }
+}
