@@ -1,6 +1,6 @@
 {
   "name": "de-nw-base",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Base project for NodeWebkit to start other nw projects from",
   "main": "nw.html",
   "dependencies": {
