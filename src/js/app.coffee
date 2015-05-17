@@ -10,7 +10,6 @@ window.jQuery		= window.$
 #--------------------------------------------------
 window._			= require 'underscore'
 window.Backbone		= require 'backbone'
-window.io			= require 'socket.io-client'
 
 
 #--------------------------------------------------
