@@ -5,7 +5,6 @@
   "main": "nw.html",
   "dependencies": {
     "backbone": "^1.2.0",
-    "de-builder": "^0.4.5",
     "de-logger": "^0.2.8",
     "jade": "^1.9.2",
     "jquery": "^2.1.4",
